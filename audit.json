@@ -1,0 +1,45 @@
+{
+  "completed_at": "2026-10-05T05:05:20.476972+03:00",
+  "python": "3.12.14",
+  "tensorflow": "2.20.0",
+  "numpy": "2.3.5",
+  "keras": "3.15.1",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "devices": [
+    "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+  ],
+  "threads": {
+    "intra": 2,
+    "inter": 2
+  },
+  "deterministic_ops": true,
+  "automated_attribution": "Implemented and executed with OpenAI Codex assistance for Saud Alotaibi; human learning review is not filled.",
+  "dataset_sha256": "f9544c4c28388b5e38ab4fffcf9aa719eeda1ba46ee3bb426815e978825bdc13",
+  "files_sha256": {
+    "config.json": "448a6be7f87d99f8c7950f84db818aeeaca5bfa031e3e83f26bcf9fd6ad7f283",
+    "train.py": "e9d753d5790ab0f8e8e57be830e44e987003c97236306d4863aa2ec2607abf78",
+    "streamgate/model.py": "80498e8f84ad0ba3f0e42b11be1709f08bd31672acd3027ed055cf7314a142f5",
+    "runs/window_plan.npz": "3c239e1af72bdc9de34f64ecf5eda3a8fd7c792595a1fe394feb7f40e1377224",
+    "checkpoints/linear.npz": "d3c47a6727ce0e4ccc60b3d77acecd087e6e15c5ea5b3882e6e163a01e3d5382",
+    "checkpoints/softmax.npz": "b5c1537b9257b3ab7b657abf483039141888bd175c4a320a8a3ab59812826170"
+  },
+  "post_training_changes": [
+    {
+      "file": "streamgate/model.py",
+      "training_sha256": "53c6b73fff7fa640195976019015c2f526a91c0f426b965e75f77562c0e25209",
+      "published_sha256": "80498e8f84ad0ba3f0e42b11be1709f08bd31672acd3027ed055cf7314a142f5",
+      "change": "Add one-position validation to step APIs; no attention equations, weights, hyperparameters or selection changed."
+    }
+  ],
+  "reported_dependencies": {
+    "tensorflow-cpu": "2.20.0",
+    "keras": "3.15.1",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.4",
+    "ipykernel": "6.30.1"
+  },
+  "benchmark_revisions": "Final benchmark executed sequentially after checkpoint verification and after adding step-input assertions. No weights, seeds or selection changes."
+}

@@ -1,0 +1,104 @@
+{
+  "question": "Can a learned-gate positive-kernel decoder replace growing KV storage with fixed-size recurrent state while retaining useful byte prediction quality?",
+  "selected_model": "linear",
+  "models": {
+    "softmax": {
+      "config": {
+        "kind": "softmax",
+        "width": 64,
+        "heads": 4,
+        "layers": 2,
+        "ff_width": 128,
+        "vocab": 256
+      },
+      "parameters": 82944,
+      "selected_step": 600,
+      "selection_val_nll": 2.1656041897255136,
+      "validation": {
+        "targets": 57536,
+        "nll_nats_per_byte": 2.1758572760698693,
+        "bits_per_byte": 3.139098501868169,
+        "perplexity": 8.809734260240784,
+        "next_byte_accuracy": 0.361547552836485
+      },
+      "holdout": {
+        "targets": 57536,
+        "nll_nats_per_byte": 2.2068006642732674,
+        "bits_per_byte": 3.1837403745775132,
+        "perplexity": 9.086598759288988,
+        "next_byte_accuracy": 0.3562639043381535
+      },
+      "training_seconds_including_selection_and_tracing": 10.474253407999868
+    },
+    "linear": {
+      "config": {
+        "kind": "linear",
+        "width": 64,
+        "heads": 4,
+        "layers": 2,
+        "ff_width": 128,
+        "vocab": 256
+      },
+      "parameters": 83464,
+      "selected_step": 600,
+      "selection_val_nll": 1.8689054396511438,
+      "validation": {
+        "targets": 57536,
+        "nll_nats_per_byte": 1.8876236200585674,
+        "bits_per_byte": 2.723265235723368,
+        "perplexity": 6.603657221676732,
+        "next_byte_accuracy": 0.44288793103448276
+      },
+      "holdout": {
+        "targets": 57536,
+        "nll_nats_per_byte": 1.9261184657706942,
+        "bits_per_byte": 2.7788015587320394,
+        "perplexity": 6.8628202044118884,
+        "next_byte_accuracy": 0.43885567296996664
+      },
+      "training_seconds_including_selection_and_tracing": 29.340091424000093
+    },
+    "unigram": {
+      "holdout": {
+        "targets": 57536,
+        "nll_nats_per_byte": 3.1572171815471304,
+        "bits_per_byte": 4.554901570827475,
+        "perplexity": 23.505094421444362,
+        "next_byte_accuracy": 0.16940697997775306
+      },
+      "policy": "Add-one smoothed byte counts fitted on training only"
+    }
+  },
+  "config": {
+    "seed": 42,
+    "context": 64,
+    "batch": 16,
+    "steps": 600,
+    "checkpoint_every": 100,
+    "selection_windows": 128,
+    "learning_rate": 0.001,
+    "clip_norm": 1.0,
+    "width": 64,
+    "heads": 4,
+    "layers": 2,
+    "ff_width": 128,
+    "benchmark_prefixes": [
+      16,
+      64,
+      256
+    ],
+    "benchmark_updates": 32,
+    "benchmark_trials": 20,
+    "benchmark_warmup": 3,
+    "paid_llm_commentary": false
+  },
+  "training_targets_per_model": 614400,
+  "selection_rule": "Checkpoint: minimum NLL on 128 fixed validation windows; architecture: minimum full-validation NLL. Holdout unused for either decision.",
+  "split_bytes": {
+    "train": 460634,
+    "validation": 57579,
+    "test": 57580
+  },
+  "single_seed": true,
+  "cross_validation": false
+}

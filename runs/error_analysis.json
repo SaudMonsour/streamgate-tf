@@ -1,0 +1,162 @@
+[
+  {
+    "model": "softmax",
+    "test_byte_offset": 3200,
+    "mean_nll": 3.8825464248657227,
+    "accuracy": 0.125,
+    "context": "an sufficient\npunishment.\u201d\n\n\n\n\nXII. THE ADVENTURE OF THE COPPE",
+    "target": "n sufficient\npunishment.\u201d\n\n\n\n\nXII. THE ADVENTURE OF THE COPPER"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 7616,
+    "mean_nll": 3.4980030059814453,
+    "accuracy": 0.203125,
+    "context": "thus:\n\n    \u201cDEAR MR. HOLMES,\u2014I am very anxious to consult yo",
+    "target": "hus:\n\n    \u201cDEAR MR. HOLMES,\u2014I am very anxious to consult you"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 16960,
+    "mean_nll": 3.2343568801879883,
+    "accuracy": 0.234375,
+    "context": "ISS HUNTER,\u2014Miss Stoper has very kindly given me your\n    addr",
+    "target": "SS HUNTER,\u2014Miss Stoper has very kindly given me your\n    addre"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 7872,
+    "mean_nll": 3.16399884223938,
+    "accuracy": 0.296875,
+    "context": "ithfully,\n\n\n    \u201cVIOLET HUNTER.\u201d\n\n\n\u201cDo you know the young ",
+    "target": "thfully,\n\n\n    \u201cVIOLET HUNTER.\u201d\n\n\n\u201cDo you know the young l"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 18304,
+    "mean_nll": 3.119450092315674,
+    "accuracy": 0.28125,
+    "context": "s faithfully,\n\n\n    \u201c\u2018JEPHRO RUCASTLE.\u2019\n\n\n\u201cThat is the l",
+    "target": " faithfully,\n\n\n    \u201c\u2018JEPHRO RUCASTLE.\u2019\n\n\n\u201cThat is the le"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 17216,
+    "mean_nll": 3.072500228881836,
+    "accuracy": 0.3125,
+    "context": "u. We\n    are willing to give \u00a3 30 a quarter, or \u00a3 120 a year,",
+    "target": ". We\n    are willing to give \u00a3 30 a quarter, or \u00a3 120 a year, "
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 3776,
+    "mean_nll": 2.9055402278900146,
+    "accuracy": 0.328125,
+    "context": "t so much to the many _causes c\u00e9l\u00e8bres_ and sensational trials",
+    "target": " so much to the many _causes c\u00e9l\u00e8bres_ and sensational trials "
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 16896,
+    "mean_nll": 2.895573854446411,
+    "accuracy": 0.3125,
+    "context": "u:\n\n\u201c\u2018The Copper Beeches, near Winchester.\n\n    \u201c\u2018DEAR M",
+    "target": ":\n\n\u201c\u2018The Copper Beeches, near Winchester.\n\n    \u201c\u2018DEAR MI"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 7808,
+    "mean_nll": 2.8886895179748535,
+    "accuracy": 0.25,
+    "context": "f-past ten to-morrow if I do\n    not inconvenience you. Yours fa",
+    "target": "-past ten to-morrow if I do\n    not inconvenience you. Yours fai"
+  },
+  {
+    "model": "softmax",
+    "test_byte_offset": 3392,
+    "mean_nll": 2.8722009658813477,
+    "accuracy": 0.265625,
+    "context": "_The Daily Telegraph_, \u201cit is\nfrequently in its least importan",
+    "target": "The Daily Telegraph_, \u201cit is\nfrequently in its least important"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 3200,
+    "mean_nll": 3.5822043418884277,
+    "accuracy": 0.109375,
+    "context": "an sufficient\npunishment.\u201d\n\n\n\n\nXII. THE ADVENTURE OF THE COPPE",
+    "target": "n sufficient\npunishment.\u201d\n\n\n\n\nXII. THE ADVENTURE OF THE COPPER"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 7616,
+    "mean_nll": 2.9543299674987793,
+    "accuracy": 0.25,
+    "context": "thus:\n\n    \u201cDEAR MR. HOLMES,\u2014I am very anxious to consult yo",
+    "target": "hus:\n\n    \u201cDEAR MR. HOLMES,\u2014I am very anxious to consult you"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 18304,
+    "mean_nll": 2.90623140335083,
+    "accuracy": 0.328125,
+    "context": "s faithfully,\n\n\n    \u201c\u2018JEPHRO RUCASTLE.\u2019\n\n\n\u201cThat is the l",
+    "target": " faithfully,\n\n\n    \u201c\u2018JEPHRO RUCASTLE.\u2019\n\n\n\u201cThat is the le"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 17216,
+    "mean_nll": 2.7423577308654785,
+    "accuracy": 0.359375,
+    "context": "u. We\n    are willing to give \u00a3 30 a quarter, or \u00a3 120 a year,",
+    "target": ". We\n    are willing to give \u00a3 30 a quarter, or \u00a3 120 a year, "
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 16960,
+    "mean_nll": 2.7184648513793945,
+    "accuracy": 0.375,
+    "context": "ISS HUNTER,\u2014Miss Stoper has very kindly given me your\n    addr",
+    "target": "SS HUNTER,\u2014Miss Stoper has very kindly given me your\n    addre"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 16896,
+    "mean_nll": 2.6971325874328613,
+    "accuracy": 0.328125,
+    "context": "u:\n\n\u201c\u2018The Copper Beeches, near Winchester.\n\n    \u201c\u2018DEAR M",
+    "target": ":\n\n\u201c\u2018The Copper Beeches, near Winchester.\n\n    \u201c\u2018DEAR MI"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 7872,
+    "mean_nll": 2.6640172004699707,
+    "accuracy": 0.421875,
+    "context": "ithfully,\n\n\n    \u201cVIOLET HUNTER.\u201d\n\n\n\u201cDo you know the young ",
+    "target": "thfully,\n\n\n    \u201cVIOLET HUNTER.\u201d\n\n\n\u201cDo you know the young l"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 3776,
+    "mean_nll": 2.663327693939209,
+    "accuracy": 0.390625,
+    "context": "t so much to the many _causes c\u00e9l\u00e8bres_ and sensational trials",
+    "target": " so much to the many _causes c\u00e9l\u00e8bres_ and sensational trials "
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 9408,
+    "mean_nll": 2.636005401611328,
+    "accuracy": 0.328125,
+    "context": "s ago the colonel received an\nappointment at Halifax, in Nova Sc",
+    "target": " ago the colonel received an\nappointment at Halifax, in Nova Sco"
+  },
+  {
+    "model": "linear",
+    "test_byte_offset": 32960,
+    "mean_nll": 2.610391616821289,
+    "accuracy": 0.28125,
+    "context": " employer had an immense _r\u00e9pertoire_, and which he told inimit",
+    "target": "employer had an immense _r\u00e9pertoire_, and which he told inimita"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "softmax",
+    "prompt": "Holmes said, ",
+    "seed": 42,
+    "temperature": 0.8,
+    "generated_bytes": 128,
+    "text": "thip wis ins the at thous magist he and ithe the be\nthe mie t prron an it an s t it acin m t ine adrus wsshe thanofsos shodoblif"
+  },
+  {
+    "model": "linear",
+    "prompt": "Holmes said, ",
+    "seed": 42,
+    "temperature": 0.8,
+    "generated_bytes": 128,
+    "text": "shougk the who go the with a sown in manching her battion adnouth macked aflouth hof\nan do the of\natith, hhe whe mastinken, and "
+  }
+]

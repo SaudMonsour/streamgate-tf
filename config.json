@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "context": 64,
+  "batch": 16,
+  "steps": 600,
+  "checkpoint_every": 100,
+  "selection_windows": 128,
+  "learning_rate": 0.001,
+  "clip_norm": 1.0,
+  "width": 64,
+  "heads": 4,
+  "layers": 2,
+  "ff_width": 128,
+  "benchmark_prefixes": [16, 64, 256],
+  "benchmark_updates": 32,
+  "benchmark_trials": 20,
+  "benchmark_warmup": 3,
+  "paid_llm_commentary": false
+}

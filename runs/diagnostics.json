@@ -1,0 +1,14 @@
+{
+  "holdout_windows": 899,
+  "linear_better_nll_windows": 898,
+  "warning": "Windows from one book are correlated; no significance or generalization claim.",
+  "byte_group_counts_in_train": {
+    "Punctuation / other": 13026,
+    "Whitespace": 85610,
+    "Digits": 257,
+    "Uppercase": 10348,
+    "Lowercase": 334740,
+    "UTF-8 high bytes": 16653
+  },
+  "data_body_bytes": 575793
+}

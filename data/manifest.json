@@ -1,0 +1,22 @@
+{
+  "title": "The Adventures of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "source_url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+  "catalog_url": "https://www.gutenberg.org/ebooks/1661",
+  "rights": "Public domain in the USA, per Project Gutenberg catalog",
+  "source_bytes": 607606,
+  "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+  "body_bytes": 575793,
+  "body_sha256": "f9544c4c28388b5e38ab4fffcf9aa719eeda1ba46ee3bb426815e978825bdc13",
+  "encoding": "UTF-8; fixed vocabulary of 256 bytes",
+  "processing": "Decode UTF-8 BOM; normalize CRLF/CR to LF; strip Gutenberg header/footer at markers; strip outer whitespace; UTF-8 encode. Internal whitespace and contents list preserved.",
+  "split_boundaries": [
+    0,
+    460634,
+    518213,
+    575793
+  ],
+  "split_policy": "contiguous 80/10/10 by byte offset",
+  "duplicate_policy": "No deduplication of natural language text; zero rows removed",
+  "missing_policy": "Not tabular; full source strictly decodes as UTF-8; no missing-value imputation"
+}

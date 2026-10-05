@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+  "fresh_download_matches_every_source_byte": true,
+  "checkpoint_hashes_match_audit": true,
+  "checks": [
+    {
+      "model": "softmax",
+      "split": "validation",
+      "replay": {
+        "targets": 57536,
+        "nll_nats_per_byte": 2.1758572760698693,
+        "bits_per_byte": 3.139098501868169,
+        "perplexity": 8.809734260240784,
+        "next_byte_accuracy": 0.361547552836485
+      }
+    },
+    {
+      "model": "softmax",
+      "split": "holdout",
+      "replay": {
+        "targets": 57536,
+        "nll_nats_per_byte": 2.2068006642732674,
+        "bits_per_byte": 3.1837403745775132,
+        "perplexity": 9.086598759288988,
+        "next_byte_accuracy": 0.3562639043381535
+      }
+    },
+    {
+      "model": "linear",
+      "split": "validation",
+      "replay": {
+        "targets": 57536,
+        "nll_nats_per_byte": 1.8876236200585674,
+        "bits_per_byte": 2.723265235723368,
+        "perplexity": 6.603657221676732,
+        "next_byte_accuracy": 0.44288793103448276
+      }
+    },
+    {
+      "model": "linear",
+      "split": "holdout",
+      "replay": {
+        "targets": 57536,
+        "nll_nats_per_byte": 1.9261184657706942,
+        "bits_per_byte": 2.7788015587320394,
+        "perplexity": 6.8628202044118884,
+        "next_byte_accuracy": 0.43885567296996664
+      }
+    }
+  ]
+}

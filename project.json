@@ -1,0 +1,32 @@
+{
+  "title": "StreamGate-TF",
+  "status": "completed",
+  "completed_date": "2026-10-05",
+  "repository_name": "streamgate-tf",
+  "repository_url": "https://github.com/SaudMonsour/streamgate-tf",
+  "about": "TensorFlow gated linear attention from scratch: byte language modeling, fixed-size streaming state, and measured quality-memory-latency trade-offs.",
+  "topics": [
+    "tensorflow",
+    "ai-engineering",
+    "linear-attention",
+    "language-modeling",
+    "streaming-inference",
+    "deep-learning",
+    "llm-engineering",
+    "benchmarking"
+  ],
+  "dataset_id": "gutenberg:1661",
+  "source_url": "https://www.gutenberg.org/ebooks/1661",
+  "question": "Can a learned-gate positive-kernel decoder replace growing KV storage with fixed-size recurrent state while retaining useful byte prediction quality?",
+  "selected_model": "linear",
+  "holdout": {
+    "targets": 57536,
+    "nll_nats_per_byte": 1.9261184657706942,
+    "bits_per_byte": 2.7788015587320394,
+    "perplexity": 6.8628202044118884,
+    "next_byte_accuracy": 0.43885567296996664
+  },
+  "automated_attribution": "Implemented and executed with OpenAI Codex assistance for Saud Alotaibi; human learning review is not filled.",
+  "human_review": "unfilled",
+  "paid_llm_commentary": false
+}
